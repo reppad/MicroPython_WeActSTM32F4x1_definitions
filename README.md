@@ -22,7 +22,7 @@ MycroPython documentation
 > https://github.com/micropython/micropython/wiki/Building-Micropython-Binaries
 
 WeAct documentation
-> https://github.com/reppad/MiniF4-STM32F4x1/tree/master/SDK/STM32F411CEU6/MicroPython
+> https://github.com/reppad/MiniSTM32F4x1/tree/master/SDK/STM32F411CEU6/MicroPython
 
 ### How to build
 
