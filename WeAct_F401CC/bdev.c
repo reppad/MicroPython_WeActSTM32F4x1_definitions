@@ -2,7 +2,7 @@
 
 // External SPI flash uses standard SPI interface
 
-#if !MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE
+#if USE_External_Flash
 
 STATIC const mp_soft_spi_obj_t soft_spi_bus = {
     .delay_half = MICROPY_HW_SOFTSPI_MIN_DELAY,

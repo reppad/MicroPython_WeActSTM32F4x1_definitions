@@ -6,6 +6,9 @@
 /* BOARD Ver 2.0 set 1 ，other set 0 like V1.3 V2.1+ */
 #define VERSION_V20                 (1)
 #define USE_External_Flash          (0)
+#if !BUILDING_MBOOT
+#define MICROPY_HW_SPIFLASH_ENABLE_CACHE (1)
+#endif
 
 #define MICROPY_EMIT_THUMB          (0)
 #define MICROPY_EMIT_INLINE_THUMB   (0)
