@@ -3,6 +3,7 @@
 Board definitions for boards
 * WeAct STM32F401CEU6
 * WeAct STM32F411CEU6
+* WeAct STM32F411CCU6 (no FS, no USB CDC or MSC)
 
 These Definitions are **made for MicroPython 1.19.1**
 
