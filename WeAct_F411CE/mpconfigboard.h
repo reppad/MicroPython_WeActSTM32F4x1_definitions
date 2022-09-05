@@ -4,9 +4,6 @@
 /* 启用 THREAD */ 
 #define MICROPY_PY_THREAD           (1)
 
-#define MICROPY_BOARD_EARLY_INIT    WeAct_Core_board_early_init
-void WeAct_Core_board_early_init(void);
-
 /* BOARD Ver 2.0 set 1 ，other set 0 ex.V1.3,V2.1,V3.0 */
 #define VERSION_V20 (0)
 
@@ -129,6 +126,7 @@ extern struct _spi_bdev_t spi_bdev;
 )
 #define MICROPY_HW_BDEV_READBLOCKS(dest, bl, n) spi_bdev_readblocks(&spi_bdev, (dest), (bl), (n))
 #define MICROPY_HW_BDEV_WRITEBLOCKS(src, bl, n) spi_bdev_writeblocks(&spi_bdev, (src), (bl), (n))
+#define MICROPY_HW_BDEV_SPIFLASH_EXTENDED (&spi_bdev) // for extended block protocol
 
 #endif
 

@@ -4,7 +4,7 @@ Board definitions for boards
 * WeAct STM32F401CEU6
 * WeAct STM32F411CEU6
 
-These Definitions are **made for MicroPython 1.14** ([commit 9dedcf1](https://github.com/micropython/micropython/tree/9dedcf122d19c6b7452adb48ff5567509adfb073))
+These Definitions are **made for MicroPython 1.19.1**
 
 All definitions can be configured to fit boards variants by editing **mpconfigboard.h**
 * HSE crystal : 25 or 8 MHz
