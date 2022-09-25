@@ -5,11 +5,9 @@
 
 // Oscillator values in Hz
 // HSE is 8/25MHz, CPU freq set to 84MHz
-#if WEACT_STUDIO_HSE_IS_8MHZ == 1
-#define HSE_VALUE (8000000)
-#else
+// /!\ To set according to WEACT_STUDIO_HSE_IS_8MHZ
 #define HSE_VALUE (25000000)
-#endif
+//#define HSE_VALUE (8000000)
 #define LSE_VALUE (32768)
 #define EXTERNAL_CLOCK_VALUE (12288000)
 

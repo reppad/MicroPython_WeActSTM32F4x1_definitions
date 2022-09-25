@@ -12,6 +12,7 @@
 #define MICROPY_HW_SPIFLASH_ENABLE_CACHE (1)
 #endif
 
+// /!\ Needs to set HSE_VALUE in stm32f4xx_hal_conf.h
 #define WEACT_STUDIO_HSE_IS_8MHZ    (0)
 
 #define MICROPY_HW_HAS_SWITCH       (1)
